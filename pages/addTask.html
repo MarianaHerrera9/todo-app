@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agregar Tarea</title>
+  <link rel="stylesheet" href="../styles/addTask.css" />
+</head>
+<body>
+  <div class="add-task-container">
+    <div class="add-task-box">
+      <h1>Agregar Nueva Tarea</h1>
+      <form class="add-task-form">
+        <label for="title">Título de la tarea</label>
+        <input type="text" id="title" placeholder="Ej. Llamar al cliente" required />
+
+        <label for="description">Descripción</label>
+        <textarea id="description" rows="4" placeholder="Detalles de la tarea..."></textarea>
+
+        <label for="date">Fecha límite</label>
+        <input type="date" id="date" required />
+
+        <label for="priority">Prioridad</label>
+        <select id="priority">
+          <option value="alta">Alta</option>
+          <option value="media">Media</option>
+          <option value="baja">Baja</option>
+        </select>
+
+        <button type="submit">Guardar Tarea</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- 1.	Prueban la app dentro de Codespaces.
+
+2.	Se corrigen errores pequeños y se finalizan detalles.
+ -->
